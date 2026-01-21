@@ -11,7 +11,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^20",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
   "dependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "fastify": "^5.5.0"
   }
 }
